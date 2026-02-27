@@ -52,7 +52,7 @@
         /* container for social icons */
         .icon-container {
             display: flex;
-            gap: 30px;
+            gap: 20px;
             justify-content: center;
             margin-top: 20px;
         }
@@ -78,6 +78,21 @@
             pointer-events: none;    /* don't interfere with clicks */
         }
 
+        .mm-visuals {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            transform: translateY(0);
+            font-family: Roboto, sans-serif;
+            font-weight: 700;
+            font-size: 48px;
+            color: #bdbaba;
+            opacity: 0.9;
+            z-index: 3;             /* above gradient and background art */
+            pointer-events: none;   /* non-interactive */
+            letter-spacing: 2px;
+            padding-left: -50px;      /* small gap from very edge for readability */
+        }
         /* Remove the dark box — keep content area transparent */
         .content {
             background: transparent;
@@ -137,5 +152,7 @@
     <div class="content">
         <!-- page content goes here -->
     </div>
+    <h3>MM Visuals</h3>
+
 </body>
 </html>
