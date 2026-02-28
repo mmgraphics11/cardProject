@@ -18,3 +18,19 @@ h3{
     opacity: 0.6;
     text-shadow: #000000 5px 4px 4px;
 }
+.icon-container a[href*="instagram"] {
+    transition: transform 0.2s;
+}
+.icon-container a[href*="instagram"]:hover {
+    transform: scale(1.1);
+}
+.icon-container a[href*="linkedin"] {
+    transition: transform 0.2s;
+}
+.icon-container a[href*="linkedin"]:hover {
+    transform: scale(1.1);
+}
+html, body {
+    overflow: hidden;    /* prevent any scrolling */
+    height: 100vh;       /* ensure body fills the viewport */
+}
