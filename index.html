@@ -39,7 +39,7 @@
         /* Graphic Designer heading */
         h2 {
             margin: 0;               /* remove default margins */
-            margin-top: -20px;       /* pull up closer to title */
+            margin-top: -40px;       /* pull up closer to title */
         }
 
         /* image positioned under the "O" in Manganaro */
@@ -52,7 +52,7 @@
         /* container for social icons */
         .icon-container {
             display: flex;
-            gap: 20px;
+            gap: 10px;
             justify-content: center;
             margin-top: 20px;
         }
@@ -63,6 +63,7 @@
             width: 200px;
             height: auto;
             color: #bdbaba;
+            gap: 10px;
         }
 
         /* Background tree image at bottom */
@@ -80,15 +81,15 @@
 
         .mm-visuals {
             position: fixed;
-            left: 0;
-            bottom: 0;
-            transform: translateY(0);
+            left: 23%;
+            bottom: 10px;
+            transform: translateY(50%); /* small upward offset */
             font-family: Roboto, sans-serif;
-            font-weight: 700;
-            font-size: 100px;
+            font-weight: 800;
+            font-size: 150px;
             color: #0e8508;
             opacity: 0.6;
-            z-index: 3;             /* above gradient and background art */
+            z-index: 5;             /* above gradient and background art */
             pointer-events: none;   /* non-interactive */
             letter-spacing: 2px;
             padding-left: -50px;      /* small gap from very edge for readability */
