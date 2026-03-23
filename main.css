@@ -34,3 +34,15 @@ html, body {
     overflow: hidden;    /* prevent any scrolling */
     height: 100vh;       /* ensure body fills the viewport */
 }
+.icon-container a[href*=portfolio] {
+    transition: transform 0.2s;
+}
+.icon-container a[href*=portfolio]:hover {
+    transform: scale(1.1);
+}
+.icon-container a[href*="email"] {
+    transition: transform 0.2s;
+}
+.icon-container a[href*="email"]:hover {
+    transform: scale(1.1);
+}       
