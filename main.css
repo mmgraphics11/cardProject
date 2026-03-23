@@ -40,9 +40,9 @@ html, body {
 .icon-container a[href*=portfolio]:hover {
     transform: scale(1.1);
 }
-.icon-container a[href*="email"] {
+.icon-container a[href*="Email"] {
     transition: transform 0.2s;
 }
-.icon-container a[href*="email"]:hover {
+.icon-container a[href*="Email"]:hover {
     transform: scale(1.1);
 }       
